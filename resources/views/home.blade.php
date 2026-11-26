@@ -1,0 +1,17 @@
+@extends('layouts.app')
+
+@section('content')
+    @include('pages.beranda')
+    @include('pages.paket-bimbingan')
+    @include('pages.adaptive-test')
+    @include('pages.bank-soal')
+    @include('pages.prediksi-nilai')
+    @include('pages.materi-belajar')
+    @include('pages.pahami-materi')
+    @include('pages.pahami-jia')
+    @include('pages.panduan')
+    @include('pages.panduan-daftar')
+    @include('pages.panduan-program')
+    @include('pages.panduan-simulasi-faq')
+    @include('pages.panduan-support')
+@endsection
